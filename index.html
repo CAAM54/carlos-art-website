@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Creates - Wear My Art!</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Carlos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero">
+            <img src="hero-image.jpg" alt="Carlos Art">
+            <h1>Wear My Art! Hand-Drawn Designs by Carlos</h1>
+            <button onclick="window.location.href='#shop'">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="shop">
+        <h2>Carlos's Favorite Designs</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>T-shirt Design 1</h3>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Repeat for more products -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Carlos</h2>
+        <p>Hi, I’m Carlos! I’m 8 years old and love drawing cool characters, animals, and more...</p>
+        <img src="carlos-drawing.jpg" alt="Carlos Drawing">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Carlos</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Follow Carlos on Social Media</p>
+        <a href="https://instagram.com">Instagram</a> |
+        <a href="https://tiktok.com">TikTok</a> |
+        <a href="https://youtube.com">YouTube</a>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JS file -->
+</body>
+</html>
